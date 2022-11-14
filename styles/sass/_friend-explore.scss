@@ -1,0 +1,80 @@
+.friend-explore{
+.oneexplore{
+    background-color: rgba($primary-color,0.999 );
+    height: 378px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    color: $primary-color;
+}
+.explore-img-women{
+    position: absolute;
+    bottom: 0;
+   z-index: 2;
+}
+.explore-card-pink{
+position: absolute;
+right: -148px;
+bottom: -165px;
+z-index: 1;
+}
+.explore-card-blue{
+position: absolute;
+bottom: 0px;
+left: -15px;
+z-index: 1;
+}
+
+.explorefriend-text{
+    width: 500px;
+   margin-top: 64px;
+z-index: 2;
+margin-right: 85px;
+
+    h2{
+
+font-size: 52px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: right;
+
+
+    }
+    h3{
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: right;
+
+    }
+    p{
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: right;
+margin-bottom: 25px;
+    }
+
+  .explore-btn {
+    
+    padding: 14px 35px ;
+    border: 1px solid $primary-color;
+    border-radius: 57px;
+}
+.explore-btn2{
+    background-color: $primary-color;
+    color: #fff;
+   margin-left: 20px;
+} 
+.explore-btn1{
+ 
+   margin-left: 140px;
+} 
+
+
+}
+
+}

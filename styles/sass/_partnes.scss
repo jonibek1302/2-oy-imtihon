@@ -1,0 +1,41 @@
+.partners{
+        .what-p{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+    .what-h3{
+
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: $primary-color;
+margin-left: 8px;
+    }
+    .product-btnn{
+    margin-bottom: 36px;
+}
+    .product-btn1{
+        padding: 12px 28px;
+        color: $primary-color;
+        border: 1px solid $primary-color;
+        border-radius: 57px;
+       
+    }
+     .product-btn-right{
+            margin-left: 1rem ;
+            font-size: 10px;
+        }
+
+.grid{
+    margin-top: 15px;
+    height: 200px;
+    place-items: center ;
+    grid-template-columns: repeat(7 ,1fr);
+  
+}
+}

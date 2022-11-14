@@ -1,0 +1,95 @@
+.products{
+.product-btnn{
+    margin-bottom: 36px;
+}
+    .product-btn1{
+        padding: 12px 28px;
+        color: $primary-color;
+        border: 1px solid $primary-color;
+        border-radius: 57px;
+       
+    }
+     .product-btn-right{
+            margin-left: 1rem ;
+            font-size: 10px;
+        }
+.grid{
+         grid-template-columns: repeat(4 , 1fr);
+         gap: 20px;
+    }
+    .whatnew-card{
+        box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+        padding: 16px;
+        border-radius: 12px;
+        img{
+            border-radius: 10px;
+        }
+      
+    }
+    .what-p{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+    .what-h3{
+
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: $primary-color;
+margin-bottom: 28px;
+    }
+  .whatnew-card-text {
+  
+    h4 {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-top: 1rem;
+    }
+    h5 {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    p{
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #667479;
+padding: 5px 0;
+.circle-new{
+font-size: 3px;
+padding: 0 4px;
+
+}
+  }
+
+.product-gift{
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+padding: 8px 12px;
+text-align: left;
+border-radius: 8px;
+color: $primary-color;
+background-color: #FCEED5;
+.pro-gift-icn{
+    color: red;
+}
+}
+}
+
+}

@@ -1,0 +1,89 @@
+.adoption{
+.adoption-img-1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+.adoption-img-2{
+    position: absolute;
+    transform: rotate(-250deg);
+    right: -300px;
+    bottom: -490px;
+    z-index: 2;
+}
+.adoption-img-3{
+    position: absolute;
+    transform: rotate(-250deg);
+    left: -170px;
+    top: -250px;
+    z-index: 2;
+}
+
+.adoption--card{
+    background-color: #FFB775;
+    height: 378px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.adoption--card1{
+    width: 500px;
+   padding-top: 64px;
+   color: $primary-color;
+   position: absolute;
+   left: 0;
+z-index: 3;
+margin-left: 85px;
+margin-top: 30px;
+
+    h2{
+
+font-size: 52px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0em;
+text-align:left;
+
+
+    }
+    h3{
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+    p{
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 25px;
+    }
+
+  .explore-btn {
+    
+    padding: 14px 35px ;
+    border: 1px solid $primary-color;
+    border-radius: 57px;
+}
+.explore-btn2{
+    background-color: $primary-color;
+    color: #fff;
+} 
+.explore-btn1{
+ 
+   margin-left: 20px;
+  
+} 
+}
+
+
+
+
+
+
+}

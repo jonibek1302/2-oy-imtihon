@@ -1,0 +1,100 @@
+.header {
+ background-color: #FCEED5;
+  padding-top: 2rem  ;
+
+.container{
+  position: relative;
+  
+  .sider {
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 250px;
+      height: 100%;
+      background-color: $primary-color;
+      transform: translateX(-100%);
+      padding: 1rem;
+      z-index: 99999;
+      transition: 0.3s ;
+      color: #fff;
+     
+.xmark-menu{
+  text-align: right;
+  font-size: 2rem;
+  position: absolute;
+  right: 15px;
+}
+ul{
+  margin-top: 50px;
+  margin-left: 37px;
+}
+      li {
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+
+        margin-top: 5px;
+        transition: all 0.3s ease-in;
+        &:hover {
+          color: #F7DBA7;
+        }
+      }
+    }
+
+    input[type="checkbox"]:checked + .sidebar {
+      transform: translateX(0);
+    }
+  }
+}
+.showcase-11{
+  position: absolute;
+left: -400px;
+top: -700px;
+z-index: 1;
+}
+  
+  .logotiv{
+    z-index: 2;
+  }
+  .nav-ul {
+    gap: 3rem;
+  }
+  .nav-li {
+    a {
+      color: $primary-color;
+      //styleName: Body/16px Bold;
+      //font-family: SVN-Gilroy;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  .nav-search {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #fff;
+    padding: 12px 48px;
+    border-radius: 46px;
+    border-color: inherit;
+    margin-right: 16px;
+   
+  }
+  .nav-btn {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: $primary-color;
+    border-radius: 57px;
+    color: white;
+    border-color: $primary-color;
+  }
+
+}
+
+
